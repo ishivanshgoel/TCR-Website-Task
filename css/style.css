@@ -5,26 +5,20 @@
 	overflow-x: hidden;
 }
 
-/* .navbar-dark .navbar{
-	background-color: transparent;
-} */
-
 .navbar-trans {
 	background: transparent;
  }
   
-
-
 .background_img{
 	width: 100%;
 	height:100vh;
 	background-color: black;
-	background-image: url("front_page.jpg");
+	background-image: url("../images/front_page.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	opacity: 2;
 }
+
 
 .bg-text {
 	background-color: rgb(0,0,0); /* Fallback color */
@@ -47,11 +41,10 @@
 		width: 100%;
 		height:100%;
 		background-color: black;
-		background-image: url("garage.jpg");
+		background-image: url("../images/garage.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
-		
   }
 
   .layer {
@@ -210,7 +203,79 @@
 	  }
 
 	  .jumbotron{
+		  background-color: rgba(0,0,0,0.8);
+	  }
+
+	  #side_bar{
+		  position:fixed;
+		  right:0;
+		  top:10%;
+		  z-index: 5;
+		  display:block;
+		  font-size: 30px;
+		  text-shadow:-10px 1px 3px black;
+			background-color: transparent;
+			color: white;
+			animation-name: pull;
+			animation-duration: 1s;
+			animation-play-state: running;
+			animation-iteration-count: infinite;
+	  }
+	  @keyframes pull{
+		0%   {right:0px;}
+		100%   {right:16px;}
+
+	  }
+
+	  .navigate{
+		height: 100%;
+		width: auto;
+		position: fixed; /* Stay in place */
+		z-index: 3; /* Sit on top */
+		right: 0; 
+		top: 0;
+		background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+		overflow-x: hidden; /* Disable horizontal scroll */
+		transition: 0.9s; 
+		color: white;
+	  }
+
+	  .navigate_elements{
+		padding: 10px;
+		margin: 10px;
+		align-self: center;
+		background-color: black;
+		color: white;
+	  }
+
+	 
+	  .navigate_button{
+		position:fixed;
+		font-size: 30px;
+		text-shadow:-10px 1px 3px black;
 		  background-color: black;
+		  color: white;
+		  animation-name: push;
+		  animation-duration: 3s;
+		  animation-play-state: running;
+		  animation-iteration-count: infinite;
+		  border: black;
+	  }
+
+	  @keyframes push{
+		0%   {right:0px;}
+		50%   {right:50px;}
+		100%   {right:0px;}
+	  }
+
+	  .navigate_hr{
+		border-top: 2px solid white;
+		border-radius: 1rem;
+		width: 150px;
+	  }
+
+	  .navigate_bottom{
+		  margin-top: 40px;
 	  }
 
 

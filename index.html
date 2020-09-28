@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <title>Hello, world!</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
 
@@ -18,28 +18,26 @@
 </head>
 
 <body>
-
-
-  <div class="col-12">
-    <a href="#" class="my-nav my-font">Contact</a>
-    <a href="#" class="my-nav my-font">Team</a>
-    <a href="#" class="my-nav my-font">About</a>
-    <a href="#" class="my-nav my-font">Home</a>
-  </div>
-  </div>
-  <div class="container">
-    <div class="bg-text">
+  <div id="navigation_bar"></div>
+  <div class="background_img">
+    <div class="container">
       <div class="col-12">
-        <img src="T.png">
-      </div>
-      <div class="col-12">
-        <h1 class="my-font">
-          <u> Team Technocrats Robotics</u>
-        </h1>
-        <p class="my-font">OFFICIAL ROVER AND ROBOTICS TEAM OF VIT CHENNAI</p>
+        <button class="btn my-font" id="side_bar"><<<br></button>
       </div>
     </div>
-  </div>
+    <div class="container">
+      <div class="bg-text">
+        <div class="col-12">
+          <img src="images/T.png">
+        </div>
+        <div class="col-12">
+          <h1 class="my-font">
+            <u> Team Technocrats Robotics</u>
+          </h1>
+          <p class="my-font">THE OFFICIAL ROVER AND ROBOTICS TEAM OF VIT CHENNAI</p>
+        </div>
+      </div>
+    </div>
   </div>
   </div>
 
@@ -105,7 +103,7 @@
       <div class="row">
         <div class="col-12 col-md-4">
           <div class="card my-card" style="width: 18rem;">
-            <img src="1.jpeg" class="card-img-top" alt="...">
+            <img src="images/1.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Lorem</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -116,7 +114,7 @@
         </div>
         <div class="col-12 col-md-4">
           <div class="card my-card" style="width: 18rem;">
-            <img src="2.jpeg" class="card-img-top" alt="...">
+            <img src="images/2.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Ipsum</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -128,7 +126,7 @@
 
         <div class="col-12 col-md-4">
           <div class="card my-card" style="width: 18rem;">
-            <img src="3.png" class="card-img-top" alt="...">
+            <img src="images/3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Dolor</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -197,10 +195,12 @@
         <p style="color: white;">Follow us on our social media Handles !!</p>
       </center>
 
-      <p style="color: white; text-align:center; margin-top: 80px;">Website template by: <a
+      <p style="color: white; text-align:center; margin-top: 80px;">Website template designed by: <a
           href="https://github.com/ShivanshGoel21" target="blank"> Shivansh Goel</a></p>
     </div>
 
+
+    <script src="javascript/style.js"></script>
 
 
 
