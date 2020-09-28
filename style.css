@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+
+.background_img{
+	width: 100%;
+	height:100vh;
+	background-color: black;
+	background-image: url("3d.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	opacity: 2;
+}
+
+.bg-text {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+	color: white;
+	font-weight: bold;
+	border-top: 4px solid #f1f1f1;
+	border-bottom: 4px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+  }
+
+  .screw-bg{
+		width: 100%;
+		height:100vh;
+		background-color: black;
+		background-image: url("screw.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		position: relative;
+  }
+
+  .layer {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+  .my-nav{
+	  color: white;
+	  font-size: 20px;
+	  float: right;
+	  padding: 5px;
+	  text-decoration: underline;
+	  text-shadow: black;
+  }
+
+  .my-nav:hover{
+	  color: rgb(101,206,48);
+  }
+
+  .my-font{
+	font-family: 'Fredoka One', cursive;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+  }
+
+  .youtube_video{
+	  padding: 30px;
+  }
+
+  .youtube_text{
+	  color: white;
+	  font-family: 'Courier New', Courier, monospace;
+	  text-align: justify;
+	  align-self: center;
+	  justify-content: center;
+  }
+
+  .youtube_text_inner{
+	  padding-left: 20px;
+	  padding-right: 20px;
+  }
+
+  .youtube_text_heading{
+	  text-decoration: underline;
+	  text-align: center;
+  }
+
+
+  .my-footer{
+	  background-color:transparent;
+	  width: 100%;
+	  height: 200px;
+	  box-shadow: white;
+	  color:white
+  }
+
+
+  .my-card{
+	  width: 200px;
+	  height: 200px;
+	  background-color: tomato;
+	  margin: 30px;
+  }
