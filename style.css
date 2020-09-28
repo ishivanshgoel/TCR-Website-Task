@@ -5,12 +5,21 @@
 	overflow-x: hidden;
 }
 
+/* .navbar-dark .navbar{
+	background-color: transparent;
+} */
+
+.navbar-trans {
+	background: transparent;
+ }
+  
+
 
 .background_img{
 	width: 100%;
 	height:100vh;
 	background-color: black;
-	background-image: url("3d.jpg");
+	background-image: url("front_page.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
@@ -38,7 +47,7 @@
 		width: 100%;
 		height:100%;
 		background-color: black;
-		background-image: url("p.jpg");
+		background-image: url("garage.jpg");
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -155,11 +164,8 @@
 	}
 
 	.social-icon-holder{
-		display: grid;
-		grid-auto-flow: column;
+		display: inline-block;
 		gap: 3px;
-		align-items: center;
-		justify-items: center;
 	}
 
 
@@ -206,3 +212,6 @@
 	  .jumbotron{
 		  background-color: black;
 	  }
+
+
+	  
