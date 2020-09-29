@@ -5,6 +5,44 @@
 	overflow-x: hidden;
 }
 
+#homePage{
+	background-color: black;
+	width: 100%;
+	height: auto;
+	overflow-y: hidden;
+}
+
+#top_nav_logo{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	margin-bottom: 0px;
+}
+
+#front_logo{
+	width: 369px;
+	height: 95px;
+	margin-top: 150px; 
+}
+
+
+.robo_image{
+	width: auto;
+	height: auto;
+	align-self: center;
+	animation-name: robo;
+	animation-duration: 8s;
+	animation-play-state: ease;
+	animation-iteration-count: infinite;
+}
+
+@keyframes robo{
+	0% {transform: scale(1, 1)}
+	50% {transform: scale(1.13, 1.13)}
+	100%  {transform: scale(1, 1)}
+}
+
+
 .navbar-trans {
 	background: transparent;
  }
@@ -244,7 +282,8 @@
 		padding: 10px;
 		margin: 10px;
 		align-self: center;
-		background-color: black;
+		/* background-color: black; */
+		text-decoration: underline;
 		color: white;
 	  }
 
@@ -260,6 +299,7 @@
 		  animation-play-state: running;
 		  animation-iteration-count: infinite;
 		  border: black;
+		  margin-top: 100px;
 	  }
 
 	  @keyframes push{
@@ -276,6 +316,12 @@
 
 	  .navigate_bottom{
 		  margin-top: 40px;
+	  }
+
+	  .tcr_logo_sidebar{
+		  width:auto;
+		  height:80px;
+		  margin:15px;
 	  }
 
 

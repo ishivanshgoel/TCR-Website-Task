@@ -47,6 +47,10 @@ side_bar_button.addEventListener("click", function () {
     close_button.innerHTML='>>'
     close_button.className="navigate_elements"
     close_button.className+=" navigate_button";
+
+    var tcr_logo=document.createElement('img')
+    tcr_logo.src="images/technocrats.png"
+    tcr_logo.className="tcr_logo_sidebar"
     
 
     navigation_bar.appendChild(home_div)
@@ -54,6 +58,7 @@ side_bar_button.addEventListener("click", function () {
     navigation_bar.appendChild(team_div)
     navigation_bar.appendChild(contact_div)
     navigation_bar.appendChild(hr)
+    navigation_bar.appendChild(tcr_logo)
     navigation_bar.appendChild(close_button)
 
     close_button.addEventListener("click",function(){
@@ -62,6 +67,7 @@ side_bar_button.addEventListener("click", function () {
         navigation_bar.removeChild(team_div)
         navigation_bar.removeChild(contact_div)
         navigation_bar.removeChild(hr)
+        navigation_bar.removeChild(tcr_logo)
         navigation_bar.removeChild(close_button)
         navigation_bar.className=""
         side_bar_button.style.visibility="visible";
